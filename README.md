@@ -7,16 +7,16 @@ creates a Scoreboard
 
 - With each target that should be giving a score, create a variable called ScoreValue, and add the lines
 
-,,,C#
+```csharp
 ScoreManager.Multiplier++;
 ScoreManager.CalculateScore(ScoreValue);
-,,,
+```
 
 ### For Example
 
 on an enemy getting attacked by a weapon from the player and it should add to a combo per hit, this could be added
 
-,,,C#
+```csharp
 
 public void HurtEnemy(Collider other)
     {
@@ -28,4 +28,4 @@ public void HurtEnemy(Collider other)
         Enemy.GetHurt(f_Damage);
         EnemyHitAnim();
     }
-,,,
+```
