@@ -16,7 +16,7 @@ public class ScoreManager : Singleton<ScoreManager>
 	public int TotalKills = 0;
 	public bool multOn = false;
 	
-	//create a dictionary for input of <"Username">, <"type of points to be gained">, and <"Amount of points gained">
+	//create a dictionary for input of <"type of points to be gained">, <"User">, and <"Amount of points gained">
 	public Dictionary<string, Dictionary<string, int>> Scores = new Dictionary<string, Dictionary<string, int>>();
 
 
